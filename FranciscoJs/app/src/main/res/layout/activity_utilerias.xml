@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ScrollView01"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.utng.jpajavaluis.Utilerias"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilerias"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+
+
+
+        <Button
+            android:id="@+id/btn_cronometro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cronometro"
+            android:textSize="20dp"></Button>
+
+
+    <Button
+        android:id="@+id/btn_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Logo Utng"
+        android:textSize="20dp"
+            />
+
+
+    <Button
+        android:id="@+id/btn_utileria_doss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Uteliria"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_juego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Juegos"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_galeria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Galeria Alumnos"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_galeria_dos_utng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Galeria UTNG"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_notificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Notificacion"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ubicacion"
+        android:textSize="20dp"
+        />
+
+
+
+
+</LinearLayout>

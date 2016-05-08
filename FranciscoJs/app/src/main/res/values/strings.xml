@@ -1,0 +1,507 @@
+<resources>
+    <string name="app_name">Javascript</string>
+
+    <string name="testsong_20_sec">http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3</string>
+    <string name="Anterior">Anterior</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="img1">Texto Foto 1</string>
+
+    <string name="Atras">Anterior</string>
+    <string name="Adelante">Siguiente</string>
+    <string name="img2">Texto Foto 1</string>
+
+
+    <string name="login">Login</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="vista">Vista</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="registro">Registro</string>
+    <string name="introduccion">Introducción</string>
+    <string name="correo_elec">Correo Electrónico</string>
+    <string name="pass">Password</string>
+    <string name="confim_pass">Confirmar Contraseña</string>
+
+
+    <string name="agregar_text">Agregar</string>
+    <string name="listar_text">Listar</string>
+    <string name="title_activity_agregar">Agregar</string>
+    <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_buscar_persona">BuscarPersona</string>
+    <string name="title_activity_eliminar">eliminar</string>
+    <string name="title_activity_pre_modificar">pre_modificar</string>
+    <string name="title_activity_modificar">modificar</string>
+
+
+    <string name="nombre">Nombre</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name_app">JavaScript</string>
+    <string name="nom_usuario">Nombre usuario</string>
+    <string name="name">Nombre</string>
+    <string name="registrate">REGISTRA TUS DATOS:</string>
+    <string name="save">Guardar</string>
+    <string name="back">Regresar</string>
+
+    <string name="str_title_temario">Selecciona el modulo</string>
+
+    //consultas a la base de datos
+    <string name="str_insert_answer_1">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Utilizado para alterar temporalmente la correlación de un Basic la
+        propiedad o campo o Id de la propiedad o campo?\', \'OVERRIDE\')
+    </string>
+    <string name="str_insert_answer_2">
+        INSERT INTO answers (answer, response) VALUES
+        (\'La presencia de esta anotación en una clase registra automáticamente la clase
+        con el tiempo de ejecución como una clase de bean administrado\', \'MANAGEDBEAN\')
+    </string>
+    <string name="str_insert_answer_3">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Define una asociación de un solo valor a
+        otra entidad que tiene multiplicidad uno-a-uno?\', \'ONETOONE\')
+    </string>
+    <string name="str_insert_answer_4">
+        INSERT INTO answers (answer, response) VALUES
+        (\'Define una asociación de un solo valor a
+        otra clase de entidad que tiene multiplicidad muchos-a-uno?\', \'MANYTOONE\')
+    </string>
+    <string name="str_cuest">Cuestionario</string>
+
+    //muestra las preguntas
+    <string name="str_answer_override">
+        Utilizado para alterar temporalmente la correlación de un Basic la
+        propiedad o campo o Id de la propiedad o campo?
+    </string>
+
+    <string name="str_answer_manytoone">
+        Define una asociación de un solo valor a
+        otra clase de entidad que tiene multiplicidad muchos-a-uno?
+    </string>
+
+    <string name="str_answer_onetoone">
+        Define una asociación de un solo valor a otra
+        entidad que tiene multiplicidad uno-a-uno?
+    </string>
+
+    <string name="str_answer_managedbean">
+        La presencia de esta anotación en una clase registra automáticamente la clase
+        con el tiempo de ejecución como una clase de bean administrado
+    </string>
+    //mas informacion
+    <string name="str_info_many">
+        El ManyToOne anotación se puede utilizar dentro de una clase incrustada para especificar
+        una relación de la clase incrustada a una clase de entidad. Si la relación es bidireccional,
+        el no poseer OneToMany lado entidad debe utilizar el mappedBy elemento de la
+        OneToMany anotación para especificar el campo de relación o la propiedad del
+        campo integrable o propiedad en el lado propietario de la relación.
+        El punto (".") La notación de sintaxis debe ser utilizado en el mappedBy elemento para
+        indicar la relación de atributo en el atributo incorporado.
+        El valor de cada identificador se utiliza con la notación de puntos es el nombre del respectivo campo o propiedad incrustado.
+    </string>
+
+    <string name="str_info_one">
+       El OneToOne anotación se puede utilizar dentro de una clase incrustada para especificar una
+        relación de la clase incrustada a una clase de entidad. Si la relación es bidireccional y
+        la entidad que contiene la clase incrustada está en la parte propietaria de la relación,
+        el lado no poseer debe utilizar el mappedBy elemento de la OneToOne anotación para
+        especificar el campo de relación o la propiedad de la clase incrustada.
+        El punto (".") La notación de sintaxis debe ser utilizado en el mappedBy elemento para
+        indicar la relación de atributo en el atributo incorporado.
+        El valor de cada identificador se utiliza con la notación de puntos es el nombre del respectivo campo o propiedad incrustado.
+    </string>
+
+    <string name="str_info_override">
+        La capacidad de una subclase para reemplazar un método permite que una clase herede de una
+        superclase cuyo comportamiento es "lo suficientemente cerca" y luego para modificar el
+        comportamiento según sea necesario. El método predominante tiene el mismo nombre, el número y
+        tipo de parámetros, y el tipo de retorno como el método de modo que se anulan. Un método de alteración temporal
+        también puede devolver un subtipo del tipo devuelto por el método reemplazado. Este subtipo se denomina un tipo de retorno covariante.
+    </string>
+
+    <string name="str_info_managedbean">
+        La anotación @ManagedBean (javax.faces.bean.ManagedBean) en una clase registra automáticamente
+        esa clase como un recurso con la implementación JavaServer Faces.
+        Un bean gestionado tal registrada no necesita entradas de configuración-bean gestionado
+        en el fichero de configuración de la aplicación.
+    </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_acerca_de_scrolling">AcercaDeScrollingActivity</string>
+
+
+    <string name="modulo_uno">
+        JavaScript es un lenguaje de programación que se utiliza principalmente para crear páginas web dinámicas.
+
+Una página web dinámica es aquella que incorpora efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
+
+Técnicamente, JavaScript es un lenguaje de programación interpretado, por lo que no es necesario compilar los programas para ejecutarlos. En otras palabras, los programas escritos con JavaScript se pueden probar directamente en cualquier navegador sin necesidad de procesos intermedios.
+
+A pesar de su nombre, JavaScript no guarda ninguna relación directa con el lenguaje de programación Java. Legalmente, JavaScript es una marca registrada de la empresa Sun Microsystems, como se puede ver en http://www.sun.com/suntrademarks/.
+    </string>
+    <string name="contentDescriptionImagenSet">This is where the picture is going to assign</string>
+
+    <string name="str_javajpa">Introducción</string>
+    <string name="str_persistencia_text">Pero para entender JPA, tendremos que tener claro el concepto
+        \'persistencia\' \n\nLa persistencia o el almacenamiento permanente, es una de las necesidades
+        básicas de cualquier sistema de información de cualquier tipo. En primer lugar, se propuso
+        que el programa tratara los datos haciendo consultas directas a la base de datos. Después,
+        se propuso trabajar con objetos, pero las bases de datos tradicionales no admiten esta opción.
+        \n\nDebido a esta situación, aparecieron los motores de persistencia, cuya función es
+        traducir entre los dos formatos de datos: de registros a objetos y de objetos a registros.
+        Persistir objetos Java en una base de datos relacional implica serializar un árbol de objetos
+        Java en una base de datos de estructura tabular y viceversa. Esencial es la necesidad de
+        mapear objetos Java para optimizar velocidad y eficiencia de la base de datos
+    </string>
+
+    <string name="str_persistent">Persistencia</string>
+    /<string name="modulo_dos">En este ejemplo, el script se incluye como un bloque de código dentro de una página XHTML. Por tanto, en primer lugar se debe crear una página XHTML correcta que incluya la declaración del DOCTYPE, el atributo xmlns, las secciones head y body, la etiqueta title, etc.
+
+Aunque el código del script se puede incluir en cualquier parte de la página, se recomienda incluirlo en la cabecera del documento, es decir, dentro de la etiqueta head.
+
+A continuación, el código JavaScript se debe incluir entre las etiquetas script...script. Además, para que la página sea válida, es necesario definir el atributo type de la etiqueta script. Técnicamente, el atributo type se corresponde con "el tipo MIME", que es un estándar para identificar los diferentes tipos de contenidos. El "tipo MIME" correcto para JavaScript es text/javascript.
+
+Una vez definida la zona en la que se incluirá el script, se escriben todas las sentencias que forman la aplicación. Este primer ejemplo es tan sencillo que solamente incluye una sentencia: alert("Hola Mundo!");.
+    </string>
+
+    <string name="str_orm">
+        Un ORM (Object Relational Mapping) define una forma de transformar un modelo
+        orientado a objetos en un modelo relacional INCO-Facultad de Ingeniería –Montevideo, Uruguay
+        3\n\n Hay muchas formas de llevar a cabo tal transformación\n\nImpedance Mismatch
+    </string>
+    <string name="modulo_tres">Antes de comenzar a desarrollar programas y utilidades con JavaScript, es
+        necesario conocer los elementos básicos con los que se construyen las aplicaciones. Si ya sabes
+        programar en algún lenguaje de programación, este capítulo te servirá para conocer la sintaxis específica de JavaScript.
+
+Si nunca has programado, este capítulo explica en detalle y comenzando desde cero los
+        conocimientos básicos necesarios para poder entender posteriormente la programación avanzada,
+        que es la que se utiliza para crear las aplicaciones reales.
+    </string>
+
+    <string name="modulo_cuatro">Las estructuras de control, los operadores y todas las utilidades propias de JavaScript que se han visto en los capítulos anteriores, permiten crear scripts sencillos y de mediana complejidad.
+
+Sin embargo, para las aplicaciones más complejas son necesarios otros elementos como las funciones y otras estructuras de control más avanzadas, que se describen en este capítulo.
+    </string>
+
+    <string name="modulo_cinco">DOM\n
+        La creación del Document Object Model o DOM es una de las innovaciones que más ha influido en
+el desarrollo de las páginas web dinámicas y de las aplicaciones web más complejas.
+DOM permite a los programadores web acceder y manipular las páginas XHTML como si fueran
+documentos XML. De hecho, DOM se diseñó originalmente para manipular de forma sencilla los
+documentos XML.
+A pesar de sus orígenes, DOM se ha convertido en una utilidad disponible para la mayoría de
+lenguajes de programación (Java, PHP, JavaScript) y cuyas únicas diferencias se encuentran en la
+forma de implementarlo
+    </string>
+
+    <string name="str_primary_key">Clases con claves primarias</string>
+    <string name="str_relation_entities">Relaciones múltiples de la entidad</string>
+    <string name="str_entities">Entidades</string>
+    <string name="str_video">Video</string>
+    <string name="intent">"Intento(s) "</string>
+    <string name="send_email">Enviar Email</string>
+    <string name="game_memorama">Juego Memorama</string>
+    <string name="generate">Generar</string>
+    <string name="galery_jpa">Galeria JPA</string>
+    <string name="galery_utng">Galeria UTNG</string>
+    <string name="seleccted_teme">Selecciona tu tema Preferido</string>
+    <string name="ejemplo">ejemplo>></string>
+    <string name="ejemplo2"><![CDATA[<h></h>!DOCTYPE html PUBLIC-//W3C//DTD XHTML 1.0 Transitional//En http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd> <html xmlns=http://www.w3.org/1999/xhtml> <head> <meta http-equiv=Content-Type content=text/html; charset=iso-8859-1 /> <title>El primer script</title> <script type=text/javascript> alert(Hola Mundo!); </script> </head> <body> <p>Esta página contiene el primer script</p> </body> </html>]]></string>
+    <string name="variables">Las variables en los lenguajes de programación siguen una lógica similar a las variables utilizadas en otros ámbitos como las matemáticas. Una variable es un elemento que se emplea para almacenar y hacer referencia a otro valor. Gracias a las variables es posible crear "programas genéricos", es decir, programas que funcionan siempre igual independientemente de los valores concretos utilizados.
+
+De la misma forma que si en Matemáticas no existieran las variables no se podrían definir las ecuaciones y fórmulas, en programación no se podrían hacer programas realmente útiles sin las variables.
+
+Si no existieran variables, un programa que suma dos números podría escribirse como:
+
+resultado = 3 + 1
+El programa anterior es tan poco útil que sólo sirve para el caso en el que el primer número de la suma sea el 3 y el segundo número sea el 1. En cualquier otro caso, el programa obtiene un resultado incorrecto.
+
+Sin embargo, el programa se puede rehacer de la siguiente manera utilizando variables para almacenar y referirse a cada número:
+
+numero_1 = 3
+numero_2 = 1
+resultado = numero_1 + numero_2
+Los elementos numero_1 y numero_2 son variables que almacenan los valores que utiliza el programa. El resultado se calcula siempre en función del valor almacenado por las variables, por lo que este programa funciona correctamente para cualquier par de números indicado. Si se modifica el valor de las variables numero_1 y numero_2, el programa sigue funcionando correctamente.
+
+Las variables en JavaScript se crean mediante la palabra reservada var. De esta forma, el ejemplo anterior se puede realizar en JavaScript de la siguiente manera:
+
+var numero_1 = 3;
+var numero_2 = 1;
+var resultado = numero_1 + numero_2;
+La palabra reservada var solamente se debe indicar al definir por primera vez la variable, lo que se denomina declarar una variable. Cuando se utilizan las variables en el resto de instrucciones del script, solamente es necesario indicar su nombre. En otras palabras, en el ejemplo anterior sería un error indicar lo siguiente:
+
+var numero_1 = 3;
+var numero_2 = 1;
+var resultado = var numero_1 + var numero_2;
+Si cuando se declara una variable se le asigna también un valor, se dice que la variable ha sido inicializada. En JavaScript no es obligatorio inicializar las variables, ya que se pueden declarar por una parte y asignarles un valor posteriormente. Por tanto, el ejemplo anterior se puede rehacer de la siguiente manera:
+
+var numero_1;
+var numero_2;
+
+numero_1 = 3;
+numero_2 = 1;
+
+var resultado = numero_1 + numero_2;
+Una de las características más sorprendentes de JavaSript para los programadores habituados a otros lenguajes de programación es que tampoco es necesario declarar las variables. En otras palabras, se pueden utilizar variables que no se han definido anteriormente mediante la palabra reservada var. El ejemplo anterior también es correcto en JavaScript de la siguiente forma:
+
+var numero_1 = 3;
+var numero_2 = 1;
+resultado = numero_1 + numero_2;
+La variable resultado no está declarada, por lo que JavaScript crea una variable global (más adelante se verán las diferencias entre variables locales y globales) y le asigna el valor correspondiente. De la misma forma, también sería correcto el siguiente código:
+
+numero_1 = 3;
+numero_2 = 1;
+resultado = numero_1 + numero_2;
+En cualquier caso, se recomienda declarar todas las variables que se vayan a utilizar.
+
+El nombre de una variable también se conoce como identificador y debe cumplir las siguientes normas:
+
+Sólo puede estar formado por letras, números y los símbolos $ (dólar) y _ (guión bajo).
+El primer carácter no puede ser un número.</string>
+    <string name="funcion">Cuando se desarrolla una aplicación compleja, es muy habitual utilizar una y otra vez las mismas instrucciones. Un script para una tienda de comercio electrónico por ejemplo, tiene que calcular el precio total de los productos varias veces, para añadir los impuestos y los gastos de envío.
+
+Cuando una serie de instrucciones se repiten una y otra vez, se complica demasiado el código fuente de la aplicación, ya que:
+
+El código de la aplicación es mucho más largo porque muchas instrucciones están repetidas.
+Si se quiere modificar alguna de las instrucciones repetidas, se deben hacer tantas modificaciones como veces se haya escrito esa instrucción, lo que se convierte en un trabajo muy pesado y muy propenso a cometer errores.
+Las funciones son la solución a todos estos problemas, tanto en JavaScript como en el resto de lenguajes de programación. Una función es un conjunto de instrucciones que se agrupan para realizar una tarea concreta y que se pueden reutilizar fácilmente.
+
+En el siguiente ejemplo, las instrucciones que suman los dos números y muestran un mensaje con el resultado se repiten una y otra vez:
+
+var resultado;
+
+var numero1 = 3;
+var numero2 = 5;
+
+// Se suman los números y se muestra el resultado
+resultado = numero1 + numero2;
+alert("El resultado es " + resultado);
+
+numero1 = 10;
+numero2 = 7;
+
+// Se suman los números y se muestra el resultado
+resultado = numero1 + numero2;
+alert("El resultado es " + resultado);
+
+numero1 = 5;
+numero2 = 8;
+
+// Se suman los números y se muestra el resultado
+resultado = numero1 + numero2;
+alert("El resultado es " + resultado);
+...
+Aunque es un ejemplo muy sencillo, parece evidente que repetir las mismas instrucciones a lo largo de todo el código no es algo recomendable. La solución que proponen las funciones consiste en extraer las instrucciones que se repiten y sustituirlas por una instrucción del tipo "en este punto, se ejecutan las instrucciones que se han extraído":
+
+var resultado;
+
+var numero1 = 3;
+var numero2 = 5;
+
+/* En este punto, se llama a la función que suma
+    2 números y muestra el resultado */
+
+numero1 = 10;
+numero2 = 7;
+
+/* En este punto, se llama a la función que suma
+    2 números y muestra el resultado */
+
+numero1 = 5;
+numero2 = 8;
+
+/* En este punto, se llama a la función que suma
+    2 números y muestra el resultado */
+...
+Para que la solución del ejemplo anterior sea válida, las instrucciones comunes se tienen que agrupar en una función a la que se le puedan indicar los números que debe sumar antes de mostrar el mensaje.
+
+Por lo tanto, en primer lugar se debe crear la función básica con las instrucciones comunes. Las funciones en JavaScript se definen mediante la palabra reservada function, seguida del nombre de la función. Su definición formal es la siguiente:
+
+function nombre_funcion() {
+  ...
+}
+El nombre de la función se utiliza para llamar a esa función cuando sea necesario. El concepto es el mismo que con las variables, a las que se les asigna un nombre único para poder utilizarlas dentro del código. Después del nombre de la función, se incluyen dos paréntesis cuyo significado se detalla más adelante. Por último, los símbolos { y } se utilizan para encerrar todas las instrucciones que pertenecen a la función (de forma similar a como se encierran las instrucciones en las estructuras if o for).
+
+Volviendo al ejemplo anterior, se crea una función llamada suma_y_muestra de la siguiente forma:
+
+function suma_y_muestra() {
+  resultado = numero1 + numero2;
+  alert("El resultado es " + resultado);
+}
+Aunque la función anterior está correctamente creada, no funciona como debería ya que le faltan los "argumentos", que se explican en la siguiente sección. Una vez creada la función, desde cualquier punto del código se puede llamar a la función para que se ejecuten sus instrucciones (además de "llamar a la función", también se suele utilizar la expresión "invocar a la función").
+
+La llamada a la función se realiza simplemente indicando su nombre, incluyendo los paréntesis del final y el carácter ; para terminar la instrucción:
+
+function suma_y_muestra() {
+  resultado = numero1 + numero2;
+  alert("El resultado es " + resultado);
+}
+
+var resultado;
+
+var numero1 = 3;
+var numero2 = 5;
+
+suma_y_muestra();
+
+numero1 = 10;
+numero2 = 7;
+
+suma_y_muestra();
+
+numero1 = 5;
+numero2 = 8;
+
+suma_y_muestra();
+...
+El código del ejemplo anterior es mucho más eficiente que el primer código que se mostró, ya que no existen instrucciones repetidas. Las instrucciones que suman y muestran mensajes se han agrupado bajo una función, lo que permite ejecutarlas en cualquier punto del programa simplemente indicando el nombre de la función.
+
+Lo único que le falta al ejemplo anterior para funcionar correctamente es poder indicar a la función los números que debe sumar. Cuando se necesitan pasar datos a una función, se utilizan los "argumentos", como se explica en la siguiente sección.
+
+4.1.1. Argumentos y valores de retorno
+
+Las funciones más sencillas no necesitan ninguna información para producir sus resultados. Sin embargo, la mayoría de funciones de las aplicaciones reales deben acceder al valor de algunas variables para producir sus resultados.
+
+Las variables que necesitan las funciones se llaman argumentos. Antes de que pueda utilizarlos, la función debe indicar cuántos argumentos necesita y cuál es el nombre de cada argumento. Además, al invocar la función, se deben incluir los valores que se le van a pasar a la función. Los argumentos se indican dentro de los paréntesis que van detrás del nombre de la función y se separan con una coma (,).
+
+Siguiendo el ejemplo anterior, la función debe indicar que necesita dos argumentos, correspondientes a los dos números que tiene que sumar:
+
+function suma_y_muestra(primerNumero, segundoNumero) { ... }
+A continuación, para utilizar el valor de los argumentos dentro de la función, se debe emplear el mismo nombre con el que se definieron los argumentos:
+
+function suma_y_muestra(primerNumero, segundoNumero) { ... }
+  var resultado = primerNumero + segundoNumero;
+  alert("El resultado es " + resultado);
+}
+Dentro de la función, el valor de la variable primerNumero será igual al primer valor que se le pase a la función y el valor de la variable segundoNumero será igual al segundo valor que se le pasa. Para pasar valores a la función, se incluyen dentro de los paréntesis utilizados al llamar a la función:
+
+// Definición de la función
+function suma_y_muestra(primerNumero, segundoNumero) { ... }
+  var resultado = primerNumero + segundoNumero;
+  alert("El resultado es " + resultado);
+}
+
+// Declaración de las variables
+var numero1 = 3;
+var numero2 = 5;
+
+// Llamada a la función
+suma_y_muestra(numero1, numero2);</string>
+    <string name="tres">3</string>
+    <string-array name="type">
+        <item>Nuevo Juego</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+
+
+    <string name="menu_setting">Opciones</string>
+    <string name="title_activity_puzzle">Puzzle</string>
+    <string name="title_activity_main_menu">PuzzleGame - Menú Principal</string>
+    <string name="mainmenu_title">Juego Puzzle</string>
+    <string name="mainmenu_resume">Resumen</string>
+    <string name="mainmenu_newgame">Nuevo Juego</string>
+    <string name="title_activity_new_game_menu">NewGameMenuActivity</string>
+    <string name="newgamemenu_title">Nuevo Juego</string>
+    <string name="newgamemenu_gamesize">"Tamaño : "</string>
+    <string name="newgamemenu_image">Elegir Imagen</string>
+    <string name="newgamemenu_ok">Empezar</string>
+    <string name="newgamemenu_back">Regresar al menú</string>
+    <string name="gamesize_verysmall">Very small (2x3)</string>
+    <string-array name="gamesizes">
+        <item>Muy pequeño</item>
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Largo</item>
+    </string-array>
+    <string name="newgamemenu_pickimage">Selecciona Imagen</string>
+    <string name="newgamemenu_button_pickbuiltin">Juego </string>
+    <string name="newgamemenu_button_pickfromsd">Memoria de telefono</string>
+    <string name="newgamemenu_button_shootphoto">Foto</string>
+    <string name="pausemenu_title">Pausar Juego</string>
+    <string name="pausemenu_resume">Resumen</string>
+    <string name="pausemenu_quit_to_main">Menú principal</string>
+    <string name="X">X</string>
+    <string name="O">O</string>
+    <string name="reset">Reset</string>
+
+    <string name="title_activity_tes">Tic-Tac-Toe</string>
+    <string name="jugar_boton">Play 2 Players</string>
+    <string name="configurar">Settings</string>
+    <string name="acercade">About</string>
+    <string name="salir">Exit</string>
+    <string name="reiniciar">Start Over</string>
+    <string name="cruz">Win the Crosses</string>
+    <string name="juegoAcabado">EN</string>
+    <string name="circulo">Win the Circles</string>
+    <string name="jugar_boton_cpu">Play CPU</string>
+    <string name="title_activity_map">Map</string>
+
+</resources>
+
+
+
+
+
+
+

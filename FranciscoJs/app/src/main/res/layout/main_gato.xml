@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tresenraya"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/TextoTresEnRaya"
+        android:layout_marginTop="40dp"
+        android:text="@string/title_activity_tes"
+        tools:context=".juegotest.TresEnRaya" />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/jugarCpu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:onClick="pulsaJugarCpu"
+        android:text="@string/jugar_boton_cpu" />
+
+
+
+
+
+    <Button
+        android:id="@+id/acercaDe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:onClick="pulsaAcercaDe"
+        android:text="@string/acercade" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:onClick="pulsaSalir"
+        android:text="@string/salir" />
+
+</LinearLayout>

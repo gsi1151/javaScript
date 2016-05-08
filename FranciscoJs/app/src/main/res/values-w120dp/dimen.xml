@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="string_dimens_txv_titulo">10sp</dimen>
+    <dimen name="string_dimens_txv">7sp</dimen>
+    <dimen name="string_dimens_btn">9sp</dimen>
+    <dimen name="string_dimen_login">12sp</dimen>
+    <dimen name="string_dimen_caja">22dp</dimen>
+    <dimen name="string_dimen_btn_answer">17dp</dimen>
+    <dimen name="box_temario">50dp</dimen>
+    <dimen name="box_teme">100dp</dimen>
+    <dimen name="images_memorama">20px</dimen>
+    <dimen name="image_splash">600px</dimen>
+</resources>

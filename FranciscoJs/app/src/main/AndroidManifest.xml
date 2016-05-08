@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mx.edu.utng.franciscojs">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18"
+        tools:replace="targetSdkVersion" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="JavaScript"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity android:name=".answers.quiz1.PreguntasJava" />
+        <activity android:name=".answers.quizCuatro.QuestionJsCuatro" />
+        <activity android:name=".answers.quizDos.QuestionJsDos" />
+        <activity android:name=".answers.quizCinco.QuestionJsCin" />
+        <activity android:name=".answers.quizTres.QuestionJsTres" />
+        <activity android:name=".GamesActivity" />
+        <activity android:name=".PreguntaEjemplo" />
+        <activity android:name=".estrategia.Manager" />
+        <activity android:name=".activity.ModuloUno" />
+        <activity android:name=".activity.ModuloDos" />
+        <activity android:name=".activity.ModuloTres" />
+        <activity android:name=".activity.ModuloCuatro" />
+        <activity android:name=".activity.ModuloCinco" />
+        <activity android:name=".video.VideoActivityUno" />
+        <activity android:name=".video.VideoActivityDos" />
+        <activity android:name=".video.VideoActivityTres" />
+        <activity android:name=".video.VideoActivityCuatro" />
+        <activity android:name=".video.VideoActivityCinco" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".TemarioActivity" />
+        <activity android:name=".Ejemplo" />
+        <activity android:name=".pdfgrafics.GrapicsActivity" />
+        <activity android:name=".Mail" />
+        <activity android:name=".MusicaActivity" />
+        <activity android:name=".galeria.GaleryJs" />
+        <activity android:name=".galeria.GaleryUTNG" />
+        <activity android:name=".TemeActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".acerca.AcercaDeScrollingActivity"
+            android:label="@string/title_activity_acerca_de_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".JuegoNumero" />
+        <activity android:name=".Utilerias" />
+        <activity android:name=".Calculadora" />
+        <activity android:name=".Cronometro" />
+        <activity android:name=".DibujarImage" />
+        <activity android:name=".Galeria" />
+        <activity android:name=".contactos.MainActivity" />
+        <activity android:name=".contactos.Agregar" />
+        }
+        <activity android:name=".contactos.BuscarPersona" />
+        <activity android:name=".contactos.Eliminar" />
+        <activity android:name=".contactos.PreModificar" />
+        <activity android:name=".contactos.Modificar" />
+        <activity android:name=".Practicas" />
+        <activity android:name=".answers.practicas.PracticasCodigo" />
+        <activity android:name=".juegos.MenusJuegosActivity" />
+        <activity android:name=".juegos.Buscaminas" />
+        <activity android:name=".juegos.PuzzleActivity" />
+        <activity android:name=".juegos.MainMenuActivity" />
+        <activity android:name=".gato.TresEnRaya" />
+        <activity android:name=".gato.JuegoCpu" />
+        <activity android:name=".gato.AcercaDe" />
+        <activity android:name=".Rocas" />
+        <activity android:name=".GaleriaProf" />
+        <activity android:name=".Notificacion"></activity>
+        <activity android:name=".GaleriaUtng"></activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map"></activity>
+    </application>
+
+</manifest>

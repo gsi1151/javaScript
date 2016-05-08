@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab1Layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondos"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:text="Tres en Raya"
+        android:textSize="25sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dip" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax1"
+                android:text="     " />
+
+            <Button
+                android:id="@+id/x2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax2"
+                android:text="     " />
+
+            <Button
+                android:id="@+id/x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax3"
+                android:text="     " />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/x4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax4"
+                android:text="   " />
+
+            <Button
+                android:id="@+id/x5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax5"
+                android:text="   " />
+
+            <Button
+                android:id="@+id/x6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax6"
+                android:text="   " />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/x7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax7"
+                android:text="   " />
+
+            <Button
+                android:id="@+id/x8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax8"
+                android:text="   " />
+
+            <Button
+                android:id="@+id/x9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/casilla_vacia"
+                android:onClick="pulsax9"
+                android:text="   " />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/xborrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="pulsaxborrar"
+        android:text="@string/reiniciar" />
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dip"
+        android:text="DigitalClock"
+       />
+
+    <TextView
+        android:id="@+id/juegoFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/juegoAcabado"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="@dimen/box_temario"
+        android:layout_height="@dimen/box_temario"
+        android:id="@+id/btn_formar"
+        android:background="@drawable/palabras"
+        />
+
+    <Button
+        android:layout_width="@dimen/box_temario"
+        android:layout_height="@dimen/box_temario"
+        android:id="@+id/btn_memo"
+        android:background="@drawable/memorama"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galery_jpa"
+        android:id="@+id/btn_galery_jpa"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galery_utng"
+        android:id="@+id/btn_galery_utng"
+        />
+</LinearLayout>

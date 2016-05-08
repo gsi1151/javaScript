@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/dos"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="12pt"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/string_dimens_txv_titulo"
+            android:text="@string/str_title_temario"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Settings"
+            android:textSize="@dimen/string_dimens_btn"
+            android:id="@+id/btn_settings"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/string_dimens_btn"
+        android:text="Cambiar tema"
+        android:id="@+id/btn_tema"
+        android:layout_marginLeft="110dp"/>
+
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Acerca de"
+        android:textSize="@dimen/string_dimens_btn"
+        android:id="@+id/btn_scroll"
+        android:layout_alignTop="@+id/btn_settings"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+</RelativeLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+           android:orientation="vertical">
+    <Button
+        android:background="#00000f"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="Modulo Uno"
+        android:id="@+id/btn_modulo_uno"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_modulo_dos"
+        android:text="Modulo Dos"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:layout_marginTop="20dp"
+         />
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="Modulo Tres"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:id="@+id/btn_modulo_tres"
+        android:layout_marginTop="20dp"/>
+
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:text="Modulo Cautro"
+                    android:textStyle="bold"
+                    android:background="#000000"
+                    android:id="@+id/btn_modulo_cuatro"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:id="@+id/btn_modulo_cinco"
+                    android:text="Modulo Cinco"
+                    android:textStyle="bold"
+                    android:background="#000000"
+                    android:layout_marginTop="20dp"
+                    />
+
+
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_juego"
+                android:text="Juego"
+                android:textStyle="bold"
+                android:background="#000000"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btn_practicas"
+                android:text="Practicas"
+                android:textStyle="bold"
+                android:background="#000000"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btn_utilerias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Utilerias"
+                android:layout_marginLeft="130dp"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/string_dimens_btn"
+                android:text="Progreso"
+                android:id="@+id/btn_progress"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"  />
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_porcentaje"/>
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/string_dimens_txv"
+        android:text="@string/modulo_cuatro"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/string_dimens_txv"
+            android:text="@string/funcion"/>
+
+    <Button
+        android:id="@+id/btn_custionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cuest"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Video"
+        android:textSize="@dimen/string_dimens_btn"
+        android:gravity="center"
+        android:id="@+id/btn_video"/>
+</LinearLayout>
+    </ScrollView>
